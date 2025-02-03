@@ -5,12 +5,10 @@ function copying_files_ascii() {
     echo -e "\033[32m
     [====================] Copying Files...
                        _             
-                      (_)            
-  ___ ___  _ __  _   _ _ _ __   __ _ 
+  ___ ___  _ __  _   _(_)_ __   __ _ 
  / __/ _ \| '_ \| | | | | '_ \ / _` |
 | (_| (_) | |_) | |_| | | | | | (_| |
  \___\___/| .__/ \__, |_|_| |_|\__, |
-          | |     __/ |         __/ |
           |_|    |___/         |___/ 
     \033[0m"
 }
@@ -20,12 +18,10 @@ function installing_packages_ascii() {
     echo -e "\033[34m
     [====================] Installing Packages...
  _           _        _ _ _             
-(_)         | |      | | (_)            
- _ _ __  ___| |_ __ _| | |_ _ __   __ _ 
+(_)_ __  ___| |_ __ _| | (_)_ __   __ _ 
 | | '_ \/ __| __/ _` | | | | '_ \ / _` |
 | | | | \__ \ || (_| | | | | | | | (_| |
 |_|_| |_|___/\__\__,_|_|_|_|_| |_|\__, |
-                                   __/ |
                                   |___/ 
     \033[0m"
 }
@@ -35,12 +31,10 @@ function updating_system_ascii() {
     echo -e "\033[35m
     [====================] Updating System...
                  _       _   _             
-                | |     | | (_)            
- _   _ _ __   __| | __ _| |_ _ _ __   __ _ 
+ _   _ _ __   __| | __ _| |_(_)_ __   __ _ 
 | | | | '_ \ / _` |/ _` | __| | '_ \ / _` |
 | |_| | |_) | (_| | (_| | |_| | | | | (_| |
  \__,_| .__/ \__,_|\__,_|\__|_|_| |_|\__, |
-      | |                             __/ |
       |_|                            |___/ 
     \033[0m"
 }
@@ -49,15 +43,12 @@ function updating_system_ascii() {
 function welcome_ascii() {
     echo -e "\033[36m
 
- _    _      _                          
-| |  | |    | |                         
-| |  | | ___| | ___ ___  _ __ ___   ___ 
-| |/\| |/ _ \ |/ __/ _ \| _ ` _ \ / _ \
-\  /\  /  __/ | (_| (_) | | | | | |  __/
- \/  \/ \___|_|\___\___/|_| |_| |_|\___|
-                                        
-                                        
 
+              _                          
+__      _____| | ___ ___  _ __ ___   ___ 
+\ \ /\ / / _ \ |/ __/ _ \| '_ ` _ \ / _ \
+ \ V  V /  __/ | (_| (_) | | | | | |  __/
+  \_/\_/ \___|_|\___\___/|_| |_| |_|\___|                                       
                                     -#@@@@%=                                     
                               =@%+-:::::::::::-=#@#.                             
                           =@+-=%@@%*=-------+%@@*-::-%@.                         
@@ -154,10 +145,10 @@ echo "Installing necessary dependencies using yay..."
 yay -Syu --noconfirm  # Update system first
 
 # Install packages using yay
-yay -S --noconfirm hyprland sway waybar rofi neofetch ranger kitty nautilus cava wlogout
+yay -S --noconfirm hyprland sway waybar rofi neofetch ranger kitty nautilus cava wlogout hyprpaper hypridle hyprlock bluetuith hyprshot tokyonight-gtk-theme-git pillow nwg-look
 
 # Install the basic Nerd Font (e.g., FiraCode) from AUR
-yay -S --noconfirm nerd-fonts-fira-code
+yay -S --noconfirm otf-aurulent-nerd
 
 # Done
 echo "Installation complete!"
