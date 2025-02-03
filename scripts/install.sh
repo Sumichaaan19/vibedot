@@ -29,24 +29,22 @@ if [[ "$choice" != "y" ]]; then
     exit 1
 fi
 
-# Copy the dotfiles instead of symlinking
+# Copy the dotfiles to ~/.config/
 echo "Copying dotfiles to ~/.config/"
 
-cp -r "$DEST_DIR/.config/cava" "$HOME/.config/cava"
-cp -r "$DEST_DIR/.config/waybar" "$HOME/.config/waybar"
-cp -r "$DEST_DIR/.config/hypr" "$HOME/.config/hypr"
-cp -r "$DEST_DIR/.config/hyde" "$HOME/.config/hyde"
-cp -r "$DEST_DIR/.config/kitty" "$HOME/.config/kitty"
-cp -r "$DEST_DIR/.config/nautilus" "$HOME/.config/nautilus"
-cp -r "$DEST_DIR/.config/neofetch" "$HOME/.config/neofetch"
-cp -r "$DEST_DIR/.config/nwg-look" "$HOME/.config/nwg-look"
-cp -r "$DEST_DIR/.config/ranger" "$HOME/.config/ranger"
-cp -r "$DEST_DIR/.config/rofi" "$HOME/.config/rofi"
-cp -r "$DEST_DIR/.config/swaync" "$HOME/.config/swaync"
-cp -r "$DEST_DIR/.config/wal" "$HOME/.config/wal"
-cp -r "$DEST_DIR/.config/wall" "$HOME/.config/wall"
-cp -r "$DEST_DIR/.config/wlogout" "$HOME/.config/wlogout"
-cp -r "$DEST_DIR/.config/xsettingsd" "$HOME/.config/xsettingsd"
+cp -rf "$DEST_DIR/.config/cava" "$HOME/.config/cava" && echo "Copied cava to ~/.config/cava"
+cp -rf "$DEST_DIR/.config/waybar" "$HOME/.config/waybar" && echo "Copied waybar to ~/.config/waybar"
+cp -rf "$DEST_DIR/.config/hypr" "$HOME/.config/hypr" && echo "Copied hypr to ~/.config/hypr"
+cp -rf "$DEST_DIR/.config/kitty" "$HOME/.config/kitty" && echo "Copied kitty to ~/.config/kitty"
+cp -rf "$DEST_DIR/.config/neofetch" "$HOME/.config/neofetch" && echo "Copied neofetch to ~/.config/neofetch"
+cp -rf "$DEST_DIR/.config/nwg-look" "$HOME/.config/nwg-look" && echo "Copied nwg-look to ~/.config/nwg-look"
+cp -rf "$DEST_DIR/.config/ranger" "$HOME/.config/ranger" && echo "Copied ranger to ~/.config/ranger"
+cp -rf "$DEST_DIR/.config/rofi" "$HOME/.config/rofi" && echo "Copied rofi to ~/.config/rofi"
+cp -rf "$DEST_DIR/.config/swaync" "$HOME/.config/swaync" && echo "Copied swaync to ~/.config/swaync"
+cp -rf "$DEST_DIR/.config/wal" "$HOME/.config/wal" && echo "Copied wal to ~/.config/wal"
+cp -rf "$DEST_DIR/.config/wall" "$HOME/.config/wall" && echo "Copied wall to ~/.config/wall"
+cp -rf "$DEST_DIR/.config/wlogout" "$HOME/.config/wlogout" && echo "Copied wlogout to ~/.config/wlogout"
+cp -rf "$DEST_DIR/.config/xsettingsd" "$HOME/.config/xsettingsd" && echo "Copied xsettingsd to ~/.config/xsettingsd"
 
 # Optional: Install necessary dependencies
 echo "Installing necessary dependencies..."
