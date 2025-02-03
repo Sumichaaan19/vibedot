@@ -1,0 +1,93 @@
+* {
+	
+	background-image: none;
+	box-shadow: none;
+}
+
+window {
+	background-color: rgba(12, 12, 12, 0.9);
+}
+
+button {
+    color: #ffffff;
+   
+    outline-style: none;
+    border: none;
+    border-width: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    border-radius: 2px;
+    border-color: #70ff7c;
+    
+    box-shadow: none;
+    text-shadow: none;
+    animation: gradient_f 20s ease-in infinite;
+}
+
+button:focus {
+
+	outline-style: none;
+	background-size: 20%;
+}
+
+button:hover#lock{
+	background-color: #ff70e7;
+	outline-style: none;
+	background-size: 40%;
+}
+button:hover#logout{
+	background-color: #ff7070;
+	outline-style: none;
+	background-size: 40%;
+}
+button:hover#suspend{
+	background-color: #70aeff;
+	outline-style: none;
+	background-size: 40%;
+}
+button:hover#shutdown{
+	background-color: #fffd70;
+	outline-style: none;
+	background-size: 40%;
+}
+button:hover#hibernate{
+	background-color: #7270ff;
+	outline-style: none;
+	background-size: 40%;
+}
+button:hover#reboot{
+	background-color: #70ff7c;
+	outline-style: none;
+	background-size: 40%;
+}
+
+
+
+
+
+
+
+#lock {
+    background-image: image(url("/home/ralphie/.config/wlogout/icons/lock.png"), url("/home/ralphie/.config/wlogout/icons/lock.png"));
+}
+
+#logout {
+    background-image: image(url("/home/ralphie/.config/wlogout/icons/logout.png"), url("/home/ralphie/.config/wlogout/icons/logout.png"));
+}
+
+#suspend {
+    background-image: image(url("/home/ralphie/.config/wlogout/icons/suspend.png"), url("/home/ralphie/.config/wlogout/icons/suspend.png"));
+}
+
+#hibernate {
+    background-image: image(url("/home/ralphie/.config/wlogout/icons/hibernate.png"), url("/home/ralphie/.config/wlogout/icons/hibernate.png"));
+}
+
+#shutdown {
+    background-image: image(url("/home/ralphie/.config/wlogout/icons/shutdown.png"), url("/home/ralphie/.config/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("/home/ralphie/.config/wlogout/icons/reboot.png"), url("/home/ralphie/.config/wlogout/icons/reboot.png"));
+}
