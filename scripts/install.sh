@@ -1,12 +1,116 @@
 #!/bin/bash
 
+# Function to display the copying files ASCII art
+function copying_files_ascii() {
+    echo -e "\033[32m
+    [====================] Copying Files...
+                       _             
+                      (_)            
+  ___ ___  _ __  _   _ _ _ __   __ _ 
+ / __/ _ \| '_ \| | | | | '_ \ / _` |
+| (_| (_) | |_) | |_| | | | | | (_| |
+ \___\___/| .__/ \__, |_|_| |_|\__, |
+          | |     __/ |         __/ |
+          |_|    |___/         |___/ 
+    \033[0m"
+}
+
+# Function to display the installing packages ASCII art
+function installing_packages_ascii() {
+    echo -e "\033[34m
+    [====================] Installing Packages...
+ _           _        _ _ _             
+(_)         | |      | | (_)            
+ _ _ __  ___| |_ __ _| | |_ _ __   __ _ 
+| | '_ \/ __| __/ _` | | | | '_ \ / _` |
+| | | | \__ \ || (_| | | | | | | | (_| |
+|_|_| |_|___/\__\__,_|_|_|_|_| |_|\__, |
+                                   __/ |
+                                  |___/ 
+    \033[0m"
+}
+
+# Function to display the updating system with yay ASCII art
+function updating_system_ascii() {
+    echo -e "\033[35m
+    [====================] Updating System...
+                 _       _   _             
+                | |     | | (_)            
+ _   _ _ __   __| | __ _| |_ _ _ __   __ _ 
+| | | | '_ \ / _` |/ _` | __| | '_ \ / _` |
+| |_| | |_) | (_| | (_| | |_| | | | | (_| |
+ \__,_| .__/ \__,_|\__,_|\__|_|_| |_|\__, |
+      | |                             __/ |
+      |_|                            |___/ 
+    \033[0m"
+}
+
+# Function to display the initial ASCII art for the script
+function welcome_ascii() {
+    echo -e "\033[36m
+
+ _    _      _                          
+| |  | |    | |                         
+| |  | | ___| | ___ ___  _ __ ___   ___ 
+| |/\| |/ _ \ |/ __/ _ \| '_ ` _ \ / _ \
+\  /\  /  __/ | (_| (_) | | | | | |  __/
+ \/  \/ \___|_|\___\___/|_| |_| |_|\___|
+                                        
+                                        
+
+                                    -#@@@@%=                                     
+                              =@%+-:::::::::::-=#@#.                             
+                          =@+-=%@@%*=-------+%@@*-::-%@.                         
+                       @%-#@+--=*****************#%@#:::-@=                      
+                    =@-#@=-+*************************#@#:::+@                    
+                  %*-@--+*******************************#@-:::@                  
+                **-@--************************************#@-::-@                
+               @-@--+***************#%@@*@@#****************%@-::+#              
+              %*%-=**************@@@#**@*@++#@%-+*************@@-::@             
+            :#@--************#@@%#@%***@+#@-***@@#-=***********%@*::@            
+            @@--*@+@%******%@@#**@+**@##=*@*+**@##@@--**********#@@-:@           
+           @@--#@:::-@@**#@%****@+**@#*@@=*@-**%@**#@@--*********#%@-:@          
+          .@--***@@::::@@%*****@***@@*@- %*#@=**@****#@+--********#%@===         
+         =#--#@@***#@=#@#******@+**@%@    .@#@=*#@*****%@--********#%@=@         
+       -@---+@::*@***@%*******%***@*         @@=*%@*****#@--+*******#%@#.        
+    -@@+*@+-#@#:::-@@#********@+**@            @=*@%******@*-=*******%@@=        
+         @-=***#@=:@%**##%@@+ -+**@             =#*@@******@*-+******#%@#        
+         @-*******@%*:         @+*@               @=%@@@#***@+-*******%@*        
+        -+-******%.       +**#*@**@:               :@=@   +@@@--******#%@        
+        #-=*****#@      .*@@@#- %#*@                 .@+@     @-+******%@        
+        @-+*****@   .%@%+%@%@%=%@@@@-          %@@@@@@@@@@*   *=-******%@.       
+        @-******@  %=  %#*****##   @@.           *%#**#%*=@@%  @-******%@:       
+        @-*****#@     %#*******#+    @.         %********%     @-=*****#@.       
+        #-+****#=     %*+====****              :#********#.    :+-*****#@.       
+        -++****%      *=::::::-#                %::::::-=%      @-*****#@        
+         %-****@        +%%#%%:                  **-::-*#       @-*****#@        
+         @-****@@                   +=:  :+*                    @-*****%#        
+         -++***@ *                  @.     +.                   @-*****@.        
+          @-***@  @                   .=+@.%                   +@-*****@         
+          .*+**%. @@:                                        .@ @-=#**@-         
+           @-**#@:   @:                                    +@  =@*#%**@          
+            @-*#@      =@                               +@:    :@ =+*@           
+             @-#@@       *+@=                       +@@     .#@#%*@*@            
+             -#-@*%@.   @@     +@@#=:      %%@@@@+%    +  %@@#***##@             
+            *+*#@**#%@@@-      -# @:-*%@@@@@*--@   ++   -@%%%%#**@@@             
+           @--*#@##%%%@       @    #%--::::--@=      @   @%%%%%##@#*@            
+          @--***##%%%@      +@-                    +@-=% @%%%%%%#***#@           
+         @--****#%%%%%     @-::%+                %*::::-@=@%%%%%%****##          
+        @--*****%%%%@     @-:::::+@           +@:::::::::@@%%%%%%#****@:         
+       %--*****%%%%%@    @-::::::::-@*     *@-::::::.:::::@%%%%%%%*****@         
+      =+-*****#%%%%@    @-:::::::.::::-%@@-:::::::.::::::::@%%%%%%#****%-        
+      @-+*****%%%%%@   =-::::::::::.::::::::::..:::::::::::+@%%%%%#*****@        
+     @--*****#%%%%%@   @:::::::::::::::.::..::::::::::::::::@%%%%%%*****@        
+"
+
 # Define your GitHub repository URL
 REPO_URL="https://github.com/Sumichaaan19/vibedot.git"
 DEST_DIR="$HOME/vibedot"
 
 # Clone the repository if it doesn't exist
+display_ascii_art
+echo "Cloning vibedot repository..."
 if [ ! -d "$DEST_DIR" ]; then
-    echo "Cloning vibedot repository..."
     git clone "$REPO_URL" "$DEST_DIR"
 else
     echo "vibedot repository already exists, pulling latest changes..."
@@ -30,8 +134,8 @@ if [[ "$choice" != "y" ]]; then
 fi
 
 # Copy the dotfiles to ~/.config/
+copying_files_ascii
 echo "Copying dotfiles to ~/.config/"
-
 cp -rf "$DEST_DIR/.config/cava" "$HOME/.config/cava" && echo "Copied cava to ~/.config/cava"
 cp -rf "$DEST_DIR/.config/waybar" "$HOME/.config/waybar" && echo "Copied waybar to ~/.config/waybar"
 cp -rf "$DEST_DIR/.config/hypr" "$HOME/.config/hypr" && echo "Copied hypr to ~/.config/hypr"
@@ -46,11 +150,16 @@ cp -rf "$DEST_DIR/.config/wall" "$HOME/.config/wall" && echo "Copied wall to ~/.
 cp -rf "$DEST_DIR/.config/wlogout" "$HOME/.config/wlogout" && echo "Copied wlogout to ~/.config/wlogout"
 cp -rf "$DEST_DIR/.config/xsettingsd" "$HOME/.config/xsettingsd" && echo "Copied xsettingsd to ~/.config/xsettingsd"
 
-# Optional: Install necessary dependencies
-echo "Installing necessary dependencies..."
-sudo pacman -Syu --noconfirm
-sudo pacman -S --noconfirm hyprland sway waybar rofi neofetch ranger kitty nautilus cava
-yay -S --noconfirm wlogout
+# Optional: Install necessary dependencies using yay
+installing_packages_ascii
+echo "Installing necessary dependencies using yay..."
+yay -Syu --noconfirm  # Update system first
+
+# Install packages using yay
+yay -S --noconfirm hyprland sway waybar rofi neofetch ranger kitty nautilus cava wlogout
+
+# Install the basic Nerd Font (e.g., FiraCode) from AUR
+yay -S --noconfirm nerd-fonts-fira-code
 
 # Done
 echo "Installation complete!"
