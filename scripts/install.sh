@@ -145,7 +145,7 @@ echo "Installing necessary dependencies using yay..."
 yay -Syu --noconfirm  # Update system first
 
 # Install packages using yay
-yay -S --noconfirm hyprland sway waybar rofi neofetch ranger kitty nautilus cava wlogout hyprpaper hypridle hyprlock bluetuith hyprshot tokyonight-gtk-theme-git pillow nwg-look
+yay -S --noconfirm hyprland sway waybar rofi neofetch ranger kitty nautilus cava wlogout hyprpaper hypridle hyprlock bluetuith hyprshot tokyonight-gtk-theme-git pillow nwg-look cmatrix cbonsai
 
 # Install the basic Nerd Font (e.g., FiraCode) from AUR
 yay -S --noconfirm otf-aurulent-nerd
