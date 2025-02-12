@@ -19,7 +19,7 @@ This is my personal Hyprland rice, customized with a Tokyo Night and Dracula aes
 | Visualizer 🎵     | [Cava](https://github.com/karlstav/cava) |
 | Logout Menu 🚪    | [Wlogout](https://github.com/ArtsyMacaw/wlogout) |
 | Image Viewer 🖼️ | [Pillow](https://github.com/python-pillow/Pillow) |
-| GTK Theme 🎨     | [Tokyo Night GTK](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme) / [Custom Dracula]|
+| GTK Theme 🎨     | [Tokyo Night GTK](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme) / Custom Dracula|
 | Fun 🌱           | [CMatrix](https://github.com/abishekvashok/cmatrix) / [Cbonsai](https://gitlab.com/jallbrit/cbonsai) |
 
 ## 🎛 Keybindings
