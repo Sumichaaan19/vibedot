@@ -50,15 +50,7 @@ This is my personal Hyprland rice, customized with a Tokyo Night and Dracula aes
 | `SUPER + Scroll` | Cycle Through Workspaces |
 | `SUPER + Left Mouse` | Move Window |
 | `SUPER + Right Mouse` | Resize Window |
-| `XF86AudioRaiseVolume` | Increase Volume |
-| `XF86AudioLowerVolume` | Decrease Volume |
-| `XF86AudioMute` | Mute Audio |
-| `XF86AudioMicMute` | Mute Microphone |
-| `XF86MonBrightnessUp` | Increase Brightness |
-| `XF86MonBrightnessDown` | Decrease Brightness |
-| `XF86AudioNext` | Next Track |
-| `XF86AudioPause/Play` | Play/Pause Track |
-| `XF86AudioPrev` | Previous Track |
+
 
 ## 📸 Screenshots
 
