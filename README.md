@@ -1,99 +1,101 @@
-# Hyprland Rice Configuration
+# 📦 Vibedot - My Hyprland Rice
 
-```ansi
-[34mThis repository contains my customized[0m **Hyprland** [34mrice setup, including configurations for Waybar, Rofi, Kitty, and more.[0m
+This is my personal Hyprland rice, customized with a Tokyo Night and Dracula aesthetic and essential tools for a sleek and efficient workflow.
+
+## 🛠 Installed Programs
+
+| Component         | Program    |
+|-------------------|------------|
+| Window Manager 🪟| [Hyprland](https://github.com/hyprwm/Hyprland)  |
+| Bar 📊            | [Waybar](https://github.com/Alexays/Waybar)      |
+| Launcher 🚀       | [Rofi](https://github.com/davatorium/rofi)          |
+| Terminal 🖥️       | [Kitty](https://github.com/kovidgoyal/kitty)        |
+| File Manager 📁   | [Nautilus](https://gitlab.gnome.org/GNOME/nautilus) / [Ranger](https://github.com/ranger/ranger)      |
+| System Info 🖼️    | [Neofetch](https://github.com/dylanaraps/neofetch) / [Fastfetch](https://github.com/fastfetch-cli/fastfetch) |
+| Lockscreen 🔒     | [Hyprlock](https://github.com/hyprwm/hyprlock)  |
+| Idle Manager ⏳   | [Hypridle](https://github.com/hyprwm/hypridle)  |
+| Wallpaper 🎨      | [Hyprpaper](https://github.com/hyprwm/hyprpaper) |
+| Screenshot 📸     | [Hyprshot](https://github.com/hyprwm/hyprshot) |
+| Visualizer 🎵     | [Cava](https://github.com/karlstav/cava) |
+| Logout Menu 🚪    | [Wlogout](https://github.com/ArtsyMacaw/wlogout) |
+| Image Viewer 🖼️ | [Pillow](https://github.com/python-pillow/Pillow) |
+| GTK Theme 🎨     | [Tokyo Night GTK](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme) / [Custom Dracula]|
+| Fun 🌱           | [CMatrix](https://github.com/abishekvashok/cmatrix) / [Cbonsai](https://gitlab.com/jallbrit/cbonsai) |
+
+## 🎛 Keybindings
+
+| Keybind | Action |
+|---------|--------|
+| `SUPER + Q` | Open Terminal |
+| `SUPER + C` | Close Active Window |
+| `SUPER + M` | Exit Hyprland |
+| `SUPER + E` | Open File Manager |
+| `SUPER + V` | Toggle Floating Window |
+| `SUPER + R` | Open Rofi Launcher |
+| `SUPER + P` | Toggle Pseudo-Tiling |
+| `SUPER + J` | Toggle Split Mode |
+| `SUPER + O` | Open VS Code |
+| `SUPER + D` | Open Dolphin File Manager |
+| `SUPER + W` | Open Wallpaper Picker |
+| `ALT + Tab` | Cycle Through Windows |
+| `SUPER + F` | Toggle Fullscreen |
+| `SUPER + SHIFT + L` | Lock Screen (Hyprlock) |
+| `SUPER + U` | Take Screenshot (Hyprshot) |
+| `SUPER + T` | Open Matrix, Ranger, Neofetch, Cava, Cbonsai in Kitty |
+| `SUPER + Arrow Keys` | Move Focus Between Windows |
+| `SUPER + [1-0]` | Switch Workspaces |
+| `SUPER + SHIFT + [1-0]` | Move Window to Workspace |
+| `SUPER + S` | Toggle Special Workspace |
+| `SUPER + SHIFT + S` | Move Window to Special Workspace |
+| `SUPER + Scroll` | Cycle Through Workspaces |
+| `SUPER + Left Mouse` | Move Window |
+| `SUPER + Right Mouse` | Resize Window |
+| `XF86AudioRaiseVolume` | Increase Volume |
+| `XF86AudioLowerVolume` | Decrease Volume |
+| `XF86AudioMute` | Mute Audio |
+| `XF86AudioMicMute` | Mute Microphone |
+| `XF86MonBrightnessUp` | Increase Brightness |
+| `XF86MonBrightnessDown` | Decrease Brightness |
+| `XF86AudioNext` | Next Track |
+| `XF86AudioPause/Play` | Play/Pause Track |
+| `XF86AudioPrev` | Previous Track |
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="./Screenshots/hyprland.png" alt="Hyprland Screenshot" width="75%" />
+</p>
+<p align="center">
+  <img src="./Screenshots/waybar.png" alt="Waybar Screenshot" width="75%" />
+</p>
+<p align="center">
+  <img src="./Screenshots/rofi.png" alt="Rofi Screenshot" width="75%" />
+</p>
+
+## ⚡ Installation
+
+Clone the repository and run the installation script:
+
+```bash
+ git clone https://github.com/Sumichaaan19/vibedot.git
+ cd ~/vibedot/scripts
+ ./install.sh
 ```
 
-## 🛠 Installation
+## 🎨 Theme
 
-```sh
-git clone https://github.com/Sumichaaan19/vibedot.git
-cd ~/vibedot/scripts
-./install.sh
-```
+This rice is based on the **Tokyo Night** theme, including GTK, Waybar, and terminal colors.
 
-## 🎮 Keybindings
+## 📜 Credits
 
-```ansi
-[34m### General[0m
-[36m• SUPER + Q[0m → Open terminal
-[36m• SUPER + C[0m → Kill active window
-[36m• SUPER + M[0m → Exit Hyprland
-[36m• SUPER + E[0m → Open file manager
-[36m• SUPER + V[0m → Toggle floating mode
-[36m• SUPER + R[0m → Launch Rofi
-[36m• SUPER + P[0m → Pseudo mode (Dwindle)
-[36m• SUPER + J[0m → Toggle split mode (Dwindle)
-[36m• SUPER + O[0m → Open VS Code
-[36m• SUPER + D[0m → Open Dolphin
-[36m• SUPER + W[0m → Change wallpaper (custom script)
+- **Hyprland** - [Hyprland GitHub](https://github.com/hyprwm/Hyprland)
+- **Tokyo Night Theme** - [Tokyo Night GTK](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme)
+- **Waybar Config** - Inspired by multiple Waybar setups
+- **Dotfiles** - Base inspiration from [igmt-official](https://github.com/igmt-official/dotfiles) / [Spelljinxer](https://github.com/Spelljinxer/dotfiles)
 
-[34m### Added Keybindings[0m
-[36m• ALT + TAB[0m → Cycle through windows
-[36m• SUPER + F[0m → Fullscreen toggle
-[36m• SUPER + SHIFT + L[0m → Lock screen (Hyprlock)
-[36m• SUPER + U[0m → Take a screenshot (Hyprshot - region)
-[36m• SUPER + T[0m → Open Kitty with:
-  - CMatrix
-  - Ranger
-  - Neofetch
-  - Cava
-  - CBonsai
 
-[34m### Focus Management[0m
-[36m• SUPER + Left[0m → Move focus left
-[36m• SUPER + Right[0m → Move focus right
-[36m• SUPER + Up[0m → Move focus up
-[36m• SUPER + Down[0m → Move focus down
-
-[34m### Workspaces[0m
-[36m• SUPER + [1-9,0][0m → Switch workspaces
-[36m• SUPER + SHIFT + [1-9,0][0m → Move active window to a workspace
-[36m• SUPER + S[0m → Toggle special workspace "magic"
-[36m• SUPER + SHIFT + S[0m → Move window to "magic" workspace
-
-[34m### Mouse Controls[0m
-[36m• SUPER + Scroll Up/Down[0m → Cycle through workspaces
-[36m• SUPER + Left Click[0m → Move window
-[36m• SUPER + Right Click[0m → Resize window
-
-[34m### Media Keys[0m
-[36m• XF86AudioRaiseVolume[0m → Increase volume
-[36m• XF86AudioLowerVolume[0m → Decrease volume
-[36m• XF86AudioMute[0m → Mute audio
-[36m• XF86AudioMicMute[0m → Mute microphone
-[36m• XF86MonBrightnessUp[0m → Increase brightness
-[36m• XF86MonBrightnessDown[0m → Decrease brightness
-[36m• XF86AudioNext[0m → Next track
-[36m• XF86AudioPause/Play[0m → Play/Pause
-[36m• XF86AudioPrev[0m → Previous track
-```
-
-## 📦 Included Packages
-
-```ansi
-[34m• Hyprland[0m → Wayland compositor
-[34m• Waybar[0m → Status bar
-[34m• Rofi[0m → Application launcher
-[34m• Neofetch[0m → System info
-[34m• Ranger[0m → Terminal file manager
-[34m• Kitty[0m → Terminal emulator
-[34m• Nautilus[0m → File manager
-[34m• Cava[0m → Audio visualizer
-[34m• Wlogout[0m → Logout menu
-[34m• Hyprpaper[0m → Wallpaper manager
-[34m• Hypridle[0m → Idle daemon
-[34m• Hyprlock[0m → Lock screen
-[34m• Bluetuith[0m → Bluetooth manager
-[34m• Fastfetch[0m → System info tool
-[34m• Hyprshot[0m → Screenshot tool
-[34m• Tokyonight GTK Theme[0m → Theme
-[34m• Pillow[0m → Python image library
-[34m• Nwg-look[0m → GTK configuration tool
-[34m• CMatrix[0m → Matrix effect
-[34m• CBonsai[0m → ASCII Bonsai tree
-```
 
 ---
-🚀 **Enjoy this Tokyo Night-themed Hyprland setup!**
+
+This rice is a work in progress, and I'll continue updating it with more tweaks and improvements!
 
