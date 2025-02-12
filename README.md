@@ -63,13 +63,13 @@ This is my personal Hyprland rice, customized with a Tokyo Night and Dracula aes
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="./Screenshots/hyprland.png" alt="Hyprland Screenshot" width="75%" />
+  <img src="./screenshots/1.png" alt="1" width="75%" />
 </p>
 <p align="center">
-  <img src="./Screenshots/waybar.png" alt="Waybar Screenshot" width="75%" />
+  <img src="./screenshots/2.png" alt="2" width="75%" />
 </p>
 <p align="center">
-  <img src="./Screenshots/rofi.png" alt="Rofi Screenshot" width="75%" />
+  <img src="./screenshots/3.png" alt="3" width="75%" />
 </p>
 
 ## ⚡ Installation
