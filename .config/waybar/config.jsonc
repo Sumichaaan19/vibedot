@@ -36,7 +36,7 @@
 },
 
 "cpu": {
-    "format": " {usage}% ",
+    "format": "  {usage}% ",
     "tooltip": true
 },
 
@@ -84,7 +84,7 @@
         "m": 30, // medium
     },
     "interval": 10,
-    "format": "󰾆 {used}GB",
+    "format": "󰾆  {used}GB",
     "rotate": 0,
     "format-m": "󰾅 {used}GB",
     "format-h": "󰓅 {used}GB",
@@ -113,7 +113,7 @@
     "module": "temperature",
     "hwmon-path": "/sys/class/hwmon/hwmon0/temp1_input",
     "critical-threshold": 80,
-    "format": " {temperatureC}°C",
+    "format": "  {temperatureC}°C",
     "tooltip": true,
     "tooltip-format": "CPU Temperature: {temperatureC}°C"
 
@@ -209,14 +209,14 @@
     "tooltip": true,
     "on-click-right": "kitty -- nmtui",
     //"on-click": "nm-connection-editor",
-    "format-wifi": " ",
+    "format-wifi": "  ",
     "rotate": 0,
-    "format-ethernet": "󰈀 ",
+    "format-ethernet": " 󰈀 ",
     "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>",
-    "format-linked": "󰈀 {ifname} (No IP)",
-    "format-disconnected": "󰖪 ",
+    "format-linked": " 󰈀 {ifname} (No IP)",
+    "format-disconnected": "󰖪  ",
     "tooltip-format-disconnected": "Disconnected",
-    "format-alt": "<span foreground='#000000'> {bandwidthDownBytes}</span> <span foreground='#000000'> {bandwidthUpBytes}</span>",
+    "format-alt": "<span foreground='#000000'>  {bandwidthDownBytes}</span> <span foreground='#000000'>  {bandwidthUpBytes}</span>",
     "interval": 2
 },
 
@@ -290,13 +290,15 @@
 },
 "idle_inhibitor": {
     "format": "{icon}",
-    "rotate": 0,
+    "interval": 1,
+    "exec": "bash -c 'pgrep -x hypridle && echo  || echo '",
+    "on-click": "bash -c 'pgrep -x hypridle && pkill hypridle || hypridle &'",
+    "tooltip": true,
     "format-icons": {
         "activated": "󰥔",
-        "deactivated": ""
+        "deactivated": ""
     }
 },
-
 "clock": {
     "format": "{:%R 󰃭 %d·%m·%y}",
     "rotate": 0,
@@ -310,7 +312,7 @@
         "format": {
             "months": "<span color='#ffead3'><b>{}</b></span>",
             "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
-            "today": "<span color='#ff6699'><b>{}</b></span>"
+            "today": "<span color='#FF0055'><b>{}</b></span>"
         }
     },
     "actions": {
@@ -333,7 +335,7 @@
 },
 
 "power-profiles-daemon": {
-    "format": "{icon}",
+    "format": "{icon} ",
     "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
     "tooltip": true,
     "format-icons": {

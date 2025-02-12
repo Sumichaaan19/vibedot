@@ -279,8 +279,8 @@ label:focus {
 
 #custom-power{
     font-size: 20;
-    padding-right: 8px;
-    padding-left: 8px;
+    padding-right: 25px;
+    padding-left: 20px;
     color: red;
     background: none;
 }
@@ -394,3 +394,6 @@ label:focus {
     background: #EAB2C2;
 }
 
+* {
+    font-family: "Noto Sans", "Font Awesome 6 Free", "Material Design Icons", "Nerd Font";
+}
