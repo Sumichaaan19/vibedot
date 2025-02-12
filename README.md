@@ -9,9 +9,8 @@ Vibedot is a personal dotfiles repository for a customized Linux setup, primaril
 
 ### 🎨 Theming & Appearance
 - **GTK 3.0 / GTK 4.0** – Libraries for creating graphical applications, ensuring a cohesive and stylish UI.
-- **KDE.org (Plasma-related settings)** – Components for KDE system integration and theming.
 - **Nwg-look** – A GTK theme switcher tailored for Wayland-based desktops.
-- **Xsettingsd** – A lightweight daemon that applies XSettings for consistent GTK theming.
+
 
 ### 🖥️ System Utilities
 - **Bluetuith** – A TUI (terminal user interface) Bluetooth manager for handling Bluetooth devices.
@@ -28,12 +27,9 @@ Vibedot is a personal dotfiles repository for a customized Linux setup, primaril
 ### 🖥️ Terminal & Launchers
 - **Kitty** – A fast, GPU-accelerated terminal emulator with extensive customization options.
 - **Neofetch** – A command-line tool that displays system information alongside a logo.
-- **Neofetch-Themes** – A collection of custom themes for Neofetch to enhance its output.
 - **Rofi** – A versatile application launcher, window switcher, and dmenu replacement.
 
 ### 🌟 Wallpapers & Lock Screen
-- **Wal (pywal)** – Generates a colorscheme dynamically based on a selected wallpaper.
-- **Wall** – Manages and sets wallpapers for a personalized desktop look.
 - **Wlogout** – A customizable logout menu designed for Wayland environments like Hyprland.
 
 ### 📊 Status Bar
