@@ -20,7 +20,7 @@ This is my personal Hyprland rice, customized with a Tokyo Night and Dracula aes
 | Logout Menu 🚪    | [Wlogout](https://github.com/ArtsyMacaw/wlogout) |
 | Image Viewer 🖼️ | [Pillow](https://github.com/python-pillow/Pillow) |
 | GTK Theme 🎨     | [Tokyo Night GTK](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme) / Custom Dracula|
-| Fun 🌱           | [CMatrix](https://github.com/abishekvashok/cmatrix) / [Cbonsai](https://gitlab.com/jallbrit/cbonsai) |
+| Fun 🌱           | [CMatrix](https://github.com/abishekvashok/cmatrix) / [Cbonsai](https://gitlab.com/jallbrit/cbonsai) / [tty-clock](https://github.com/xorg62/tty-clock) |
 
 ## 🎛 Keybindings
 
@@ -62,6 +62,8 @@ This is my personal Hyprland rice, customized with a Tokyo Night and Dracula aes
 
 ## 📸 Screenshots
 
+Don't mind the lines, I have a problem with the screenshot.
+
 <p align="center">
   <img src="./screenshots/1.png" alt="1" width="75%" />
 </p>
@@ -84,12 +86,12 @@ Clone the repository and run the installation script:
 
 ## 🎨 Theme
 
-This rice is based on the **Tokyo Night** theme, including GTK, Waybar, and terminal colors.
+This rice is based on the **Tokyo Night** and Dracula color theme, including GTK, Waybar, and terminal colors.
 
 ## 📜 Credits
 
 - **Hyprland** - [Hyprland GitHub](https://github.com/hyprwm/Hyprland)
-- **Tokyo Night Theme** - [Tokyo Night GTK](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme)
+- **Tokyo Night Theme** - [Tokyo Night GTK](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme) / Custom Dracula
 - **Waybar Config** - Inspired by multiple Waybar setups
 - **Dotfiles** - Base inspiration from [igmt-official](https://github.com/igmt-official/dotfiles) / [Spelljinxer](https://github.com/Spelljinxer/dotfiles)
 
