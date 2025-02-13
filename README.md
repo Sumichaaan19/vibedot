@@ -20,7 +20,7 @@ This is my personal Hyprland rice, customized with a Tokyo Night and Dracula aes
 | Logout Menu 🚪    | [Wlogout](https://github.com/ArtsyMacaw/wlogout) |
 | Image Viewer 🖼️ | [Pillow](https://github.com/python-pillow/Pillow) |
 | GTK Theme 🎨     | [Tokyo Night GTK](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme) / Custom Dracula|
-| Fun 🌱           | [CMatrix](https://github.com/abishekvashok/cmatrix) / [Cbonsai](https://gitlab.com/jallbrit/cbonsai) / [tty-clock](https://github.com/xorg62/tty-clock) |
+| Fun 🌱           | [CMatrix](https://github.com/abishekvashok/cmatrix) / [Cbonsai](https://gitlab.com/jallbrit/cbonsai) / [tty-clock](https://github.com/xorg62/Tty-clock) |
 
 ## 🎛 Keybindings
 
@@ -85,7 +85,7 @@ This rice is based on the **Tokyo Night** and Dracula color theme, including GTK
 - **Hyprland** - [Hyprland GitHub](https://github.com/hyprwm/Hyprland)
 - **Tokyo Night Theme** - [Tokyo Night GTK](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme) / Custom Dracula
 - **Waybar Config** - Inspired by multiple Waybar setups
-- **Dotfiles** - Base inspiration from [igmt-official](https://github.com/igmt-official/dotfiles) / [Spelljinxer](https://github.com/Spelljinxer/dotfiles)
+- **Dotfiles** - Base inspiration from [Igmt-official](https://github.com/igmt-official/dotfiles) / [Spelljinxer](https://github.com/Spelljinxer/dotfiles)
 
 
 
