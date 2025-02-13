@@ -157,6 +157,8 @@ cp -rf "$DEST_DIR/.config/wal" "$HOME/.config/wal" && echo "Copied wal to ~/.con
 cp -rf "$DEST_DIR/.config/wall" "$HOME/.config/wall" && echo "Copied wall to ~/.config/wall"
 cp -rf "$DEST_DIR/.config/wlogout" "$HOME/.config/wlogout" && echo "Copied wlogout to ~/.config/wlogout"
 cp -rf "$DEST_DIR/.config/xsettingsd" "$HOME/.config/xsettingsd" && echo "Copied xsettingsd to ~/.config/xsettingsd"
+cp -rf "$DEST_DIR/.config/btop" "$HOME/.config/btop" && echo "Copied btop to ~/.config/btop"
+
 
 # Copy .bashrc and replace the existing one
 echo "Replacing .bashrc..."
@@ -169,7 +171,7 @@ echo "Installing necessary dependencies using yay..."
 yay -Syu --noconfirm  # Update system first
 
 # Install packages using yay
-yay -S --noconfirm sway waybar rofi neofetch ranger kitty nautilus cava wlogout hyprpaper hypridle hyprlock bluetuith fastfetch hyprshot tokyonight-gtk-theme-git pillow nwg-look cmatrix cbonsai tty-clock
+yay -S --noconfirm sway waybar rofi neofetch ranger kitty nautilus cava wlogout hyprpaper hypridle hyprlock bluetuith hyprshot tokyonight-gtk-theme-git pillow nwg-look cmatrix cbonsai tty-clock btop
 
 # Install the basic Nerd Font (e.g., FiraCode) from AUR
 yay -S --noconfirm otf-aurulent-nerd
