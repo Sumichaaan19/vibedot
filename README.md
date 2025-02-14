@@ -1,4 +1,4 @@
-# 📦 Vibedot - My Hyprland Rice
+# Vibedot
 
 This is my personal Hyprland rice, customized with a Tokyo Night and Dracula aesthetic and essential tools for a sleek and efficient workflow.
 
