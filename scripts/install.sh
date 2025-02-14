@@ -149,7 +149,6 @@ cp -rf "$DEST_DIR/.config/waybar" "$HOME/.config/waybar" && echo "Copied waybar 
 cp -rf "$DEST_DIR/.config/hypr" "$HOME/.config/hypr" && echo "Copied hypr to ~/.config/hypr"
 cp -rf "$DEST_DIR/.config/kitty" "$HOME/.config/kitty" && echo "Copied kitty to ~/.config/kitty"
 cp -rf "$DEST_DIR/.config/neofetch" "$HOME/.config/neofetch" && echo "Copied neofetch to ~/.config/neofetch"
-cp -rf "$DEST_DIR/.config/nwg-look" "$HOME/.config/nwg-look" && echo "Copied nwg-look to ~/.config/nwg-look"
 cp -rf "$DEST_DIR/.config/ranger" "$HOME/.config/ranger" && echo "Copied ranger to ~/.config/ranger"
 cp -rf "$DEST_DIR/.config/rofi" "$HOME/.config/rofi" && echo "Copied rofi to ~/.config/rofi"
 cp -rf "$DEST_DIR/.config/swaync" "$HOME/.config/swaync" && echo "Copied swaync to ~/.config/swaync"
@@ -171,7 +170,7 @@ echo "Installing necessary dependencies using yay..."
 yay -Syu --noconfirm  # Update system first
 
 # Install packages using yay
-yay -S --noconfirm sway waybar rofi neofetch ranger kitty cava wlogout swww hypridle hyprlock bluetuith hyprshot tokyonight-gtk-theme-git python-pillow nwg-look cmatrix cbonsai tty-clock btop
+yay -S --noconfirm sway waybar rofi neofetch ranger kitty cava wlogout swww hypridle hyprlock bluetuith hyprshot python-pillow nwg-look cmatrix cbonsai tty-clock btop
 
 # Install the basic Nerd Font (e.g., FiraCode) from AUR
 yay -S --noconfirm otf-aurulent-nerd

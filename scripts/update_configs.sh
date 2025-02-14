@@ -13,7 +13,6 @@ cp -r ~/.config/bluetuith \
       ~/.config/hypr \
       ~/.config/kde.org \
       ~/.config/kitty \
-      ~/.config/nautilus \
       ~/.config/neofetch \
       ~/.config/neofetch-themes \
       ~/.config/ranger \
