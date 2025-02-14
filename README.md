@@ -81,7 +81,7 @@ This rice is based on the **Tokyo Night** and Dracula color theme, including GTK
 ## 📜 Credits
 
 - **Hyprland** - [Hyprland GitHub](https://github.com/hyprwm/Hyprland)
-- **Tokyo Night Theme** - [Tokyo Night GTK](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme) / Custom Dracula
+- **Theme** - Tokyo Night / Custom Dracula
 - **Waybar Config** - Inspired by multiple Waybar setups
 - **Dotfiles** - Base inspiration from [Igmt-official](https://github.com/igmt-official/dotfiles) / [Spelljinxer](https://github.com/Spelljinxer/dotfiles)
 
