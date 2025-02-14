@@ -36,12 +36,11 @@ This is my personal Hyprland rice, customized with a Tokyo Night and Dracula aes
 | `SUPER + J` | Toggle Split Mode |
 | `SUPER + O` | Open VS Code |
 | `SUPER + D` | Open Dolphin File Manager |
-| `SUPER + W` | Open Wallpaper Picker |
+| `SUPER + SHIFT + W` | Open Wallpaper Picker |
 | `ALT + Tab` | Cycle Through Windows |
 | `SUPER + F` | Toggle Fullscreen |
 | `SUPER + SHIFT + L` | Lock Screen (Hyprlock) |
 | `SUPER + U` | Take Screenshot (Hyprshot) |
-| `SUPER + T` | Open Matrix, Ranger, Neofetch, Cava, Cbonsai in Kitty |
 | `SUPER + Arrow Keys` | Move Focus Between Windows |
 | `SUPER + [1-0]` | Switch Workspaces |
 | `SUPER + SHIFT + [1-0]` | Move Window to Workspace |
