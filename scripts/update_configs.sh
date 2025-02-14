@@ -9,8 +9,6 @@ mkdir -p "$DEST_DIR"
 # Copy config folders
 cp -r ~/.config/bluetuith \
       ~/.config/cava \
-      ~/.config/gtk-3.0 \
-      ~/.config/gtk-4.0 \
       ~/.config/hyde \
       ~/.config/hypr \
       ~/.config/kde.org \
@@ -18,7 +16,6 @@ cp -r ~/.config/bluetuith \
       ~/.config/nautilus \
       ~/.config/neofetch \
       ~/.config/neofetch-themes \
-      ~/.config/nwg-look \
       ~/.config/ranger \
       ~/.config/rofi \
       ~/.config/swaync \
