@@ -210,8 +210,8 @@ tooltip {
 }
 #custom-updates
 {
-    color: @main-bg;
-    background: @wb-act-bg;
+    color: white;
+    background: none;
     /*Size*/
     font-size: 15px;  
     padding: 8px 12px;     
