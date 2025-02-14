@@ -47,7 +47,7 @@ inputbar {
     spacing:                     10px;
     padding:                     1.2em;
     children:                    [ "textbox-prompt-colon", "entry" ];
-    background-color:            @main-bg;
+    background-color:            #414868;
     // background-image:            url("~/.config/swww/wall.rofi", width);
 }
 
@@ -80,7 +80,7 @@ listbox {
     spacing:                     0em;
     orientation:                 horizontal;
     children:                    [ "listview"];
-    background-color:            @main-bg;
+    background-color:            #414868;
     
 }
 listview {
