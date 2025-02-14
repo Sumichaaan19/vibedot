@@ -1,4 +1,4 @@
-# Vibedot
+# VIBEDOT
 
 This is my personal Hyprland rice, customized with a Tokyo Night and Dracula aesthetic and essential tools for a sleek and efficient workflow.
 
@@ -52,8 +52,6 @@ This is my personal Hyprland rice, customized with a Tokyo Night and Dracula aes
 
 ## 📸 Screenshots
 
-Don't mind the lines, I have a problem with the screenshot.
-
 <p align="center">
   <img src="./screenshots/2025-02-14-144551_hyprshot.png" alt="1" width="75%" />
 </p>
@@ -80,12 +78,15 @@ Clone the repository and run the installation script:
 
 ## 🎨 Theme
 
-This rice is based on the **Tokyo Night** and Dracula color theme, including GTK, Waybar, and terminal colors.
+This rice is based on the **Tokyo Night** and **Dracula** color theme, Waybar, and terminal colors.
 
 ## 📜 Credits
 
+I don't know the real owners of the other wallpaper I used, so please tell me if you know them immediately.
+
 - **Hyprland** - [Hyprland GitHub](https://github.com/hyprwm/Hyprland)
 - **Theme** - Tokyo Night / Custom Dracula
+- **Wallpapers** - [keito2562](https://www.pixiv.net/en/users/9206405) / [TaMuKe](https://www.pixiv.net/en/users/15908118) / [貓咪](https://www.pixiv.net/en/users/20218233)
 - **Waybar Config** - Inspired by multiple Waybar setups
 - **Dotfiles** - Base inspiration from [Igmt-official](https://github.com/igmt-official/dotfiles) / [Spelljinxer](https://github.com/Spelljinxer/dotfiles)
 
