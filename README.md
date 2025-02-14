@@ -10,16 +10,15 @@ This is my personal Hyprland rice, customized with a Tokyo Night and Dracula aes
 | Bar 📊            | [Waybar](https://github.com/Alexays/Waybar)      |
 | Launcher 🚀       | [Rofi](https://github.com/davatorium/rofi)          |
 | Terminal 🖥️       | [Kitty](https://github.com/kovidgoyal/kitty)        |
-| File Manager 📁   | [Nautilus](https://gitlab.gnome.org/GNOME/nautilus) / [Ranger](https://github.com/ranger/ranger)      |
-| System Info 🖼️    | [Neofetch](https://github.com/dylanaraps/neofetch) / [Fastfetch](https://github.com/fastfetch-cli/fastfetch) |
+| File Manager 📁   | [Dolphin](https://github.com/KDE/dolphin) / [Ranger](https://github.com/ranger/ranger)      |
+| System Info 🖼️    | [Neofetch](https://github.com/dylanaraps/neofetch)|
 | Lockscreen 🔒     | [Hyprlock](https://github.com/hyprwm/hyprlock)  |
 | Idle Manager ⏳   | [Hypridle](https://github.com/hyprwm/hypridle)  |
-| Wallpaper 🎨      | [Hyprpaper](https://github.com/hyprwm/hyprpaper) |
+| Wallpaper 🎨      | [swww](https://github.com/LGFae/swww) |
 | Screenshot 📸     | [Hyprshot](https://github.com/hyprwm/hyprshot) |
 | Visualizer 🎵     | [Cava](https://github.com/karlstav/cava) |
 | Logout Menu 🚪    | [Wlogout](https://github.com/ArtsyMacaw/wlogout) |
 | Image Viewer 🖼️ | [Pillow](https://github.com/python-pillow/Pillow) |
-| GTK Theme 🎨     | [Tokyo Night GTK](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme) / Custom Dracula|
 | Fun 🌱           | [CMatrix](https://github.com/abishekvashok/cmatrix) / [Cbonsai](https://gitlab.com/jallbrit/cbonsai) / [tty-clock](https://github.com/xorg62/Tty-clock) |
 
 ## 🎛 Keybindings
