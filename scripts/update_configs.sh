@@ -7,8 +7,7 @@ DEST_DIR="/home/ralphie/vibedot/.config"
 mkdir -p "$DEST_DIR"
 
 # Copy config folders
-cp -r ~/.config/bluetuith \
-      ~/.config/cava \
+cp -r ~/.config/cava \
       ~/.config/hyde \
       ~/.config/hypr \
       ~/.config/kde.org \
