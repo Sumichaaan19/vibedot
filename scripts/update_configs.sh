@@ -10,7 +10,6 @@ mkdir -p "$DEST_DIR"
 cp -r ~/.config/cava \
       ~/.config/hyde \
       ~/.config/hypr \
-      ~/.config/kde.org \
       ~/.config/kitty \
       ~/.config/neofetch \
       ~/.config/neofetch-themes \
