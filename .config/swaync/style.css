@@ -116,7 +116,7 @@
 
 .notification-row .notification-background .notification .notification-default-action .notification-content .text-box .summary {
   /* Notification summary/title */
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   background: transparent;
   color: @text-color;
@@ -125,17 +125,17 @@
 
 .notification-row .notification-background .notification .notification-default-action .notification-content .text-box .time {
   /* Notification time-ago */
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   background: transparent;
   color: @text-color;
   text-shadow: none;
   margin-right: 30px;
 }
-
+/*This is for the notification content text*/
 .notification-row .notification-background .notification .notification-default-action .notification-content .text-box .body {
   /* Notification body */
-  font-size: 15px;
+  font-size: 11px;
   font-weight: normal;
   background: transparent;
   color: @text-color;
